@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#contador {
+    background-color: black;
+    padding: 4rem;
+    border-radius: 8px;
+    border: 3px solid red;
+    box-shadow: 0 0 5px red;
+}
+
+#contador div {
+    display: flex;
+    align-items: center;
+}
+
+#value {
+    font-size: 8rem;
+    color: white;
+    min-width: 14rem;
+    text-align: center;
+}
+
+
+button {
+    border: 3px solid red;
+    box-shadow: 0 0 5px red;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+.botao-contar {
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+    background-color: black;
+    margin-right: 1rem;
+}
+
+.botao-contar:last-child {
+    margin-right: 0rem;
+    margin-left: 1rem;
+}
+
+#reset {
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: black;
+    padding: .8rem 0;
+    margin-top: 1rem;
+}
